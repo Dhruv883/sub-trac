@@ -13,7 +13,7 @@ export default function RootLayout() {
       >
         <Stack.Screen name="index" />
       </Stack>
-      <StatusBar style="light" backgroundColor="#101110" />
+      <StatusBar style="light" backgroundColor="#111111" />
     </FontProvider>
   );
 }

@@ -9,7 +9,7 @@ export default function Welcome() {
   return (
     <SafeAreaView className="flex-1 bg-background-primary-dark">
       <View className="flex-1 items-center gap-10 p-6">
-        <View className="w-full h-1/2  items-center">
+        <View className="w-full h-1/2 items-center">
           <View className="w-96 relative p-5 h-4 ">
             <LinearGradient
               colors={["#202120", "#121312"]}
@@ -84,7 +84,7 @@ export default function Welcome() {
 
         <TouchableOpacity
           className="bg-text-primary w-1/2 py-4 rounded-full items-center mb-6 sm:mb-8 "
-          onPress={() => router.push("/login")}
+          onPress={() => router.push("/home")}
         >
           <Text className="text-background-primary text-2xl font-clash-grotesk-medium">
             Start
